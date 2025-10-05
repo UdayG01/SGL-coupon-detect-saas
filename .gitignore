@@ -1,0 +1,12 @@
+venv/
+venv_hailo/
+assets/
+dataset/
+calib/
+hailo_model_zoo/
+hailo8_ai_sw_suite_2025-10_docker/
+Hailo8l/
+RasPi_YOLO/
+Label Annotations.v1i.yolov8/
+Label_annots_coupond.yolov8/
+whl/
