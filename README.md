@@ -1,3 +1,7 @@
+### Frameworks
+* Pytorch
+* Ultralytics (Yolov8n, pt -> onnx conversion)
+* Hailo8 (docker container to convert onnx -> HEF (hailo executable format) - to run real-time object detection on R-pi5)
 
 ### Resources
 * [Ghub Repo](https://github.com/UdayG01/SGL-coupon-detect-saas)
