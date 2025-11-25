@@ -1,0 +1,1 @@
+hailomz compile --ckpt /local/shared_with_docker/doc/best_fixed_5.onnx --calib-path /local/shared_with_docker/doc/calib --yaml /local/shared_with_docker/doc/yolov8n.yaml --classes 2 --hw-arch hailo8l

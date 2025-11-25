@@ -411,7 +411,7 @@ class CouponDetectorApp(ctk.CTk):
             img_left = ctk.CTkImage(
                 light_image=Image.open("src/logo_left.png"),
                 dark_image=Image.open("src/logo_left.png"),
-                size=(150, 60)
+                size=(160, 55)
             )
             self.logo_left = ctk.CTkLabel(header, image=img_left, text="")
             self.logo_left.image = img_left

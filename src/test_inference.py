@@ -2,12 +2,13 @@ import cv2
 from ultralytics import YOLO
 
 # Paths
-video_path = "assets/input video/recording_20250903_151656.avi"         
-output_path = "assets/output videos/output2.mp4"       
-model_path = "model/best_(2).pt"          # your trained YOLO model
+video_path = "assets/input video/noisy_input2.mp4"         
+output_path = "assets/output videos/output_noisy.mp4"       
+model_path = "model/best_5.pt"          # your trained YOLO model
 
 # Load model
 model = YOLO(model_path)
+model.to('cuda')
 
 # Open video
 cap = cv2.VideoCapture(video_path)
